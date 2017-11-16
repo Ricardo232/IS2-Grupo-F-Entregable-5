@@ -1,0 +1,150 @@
+{
+    "Player":{
+        "Warrior": {
+            "Images": {
+                "BaseSurface": [128, 128],
+                "Idle": {
+                    "n": 10,
+                    "x": 0,
+                    "y": 1045,
+                    "w": 96,
+                    "h": 96,
+                    "offsetx": 16,
+                    "offsety": 16
+                },
+                "Walk": {
+                    "n": 8,
+                    "x": 2882,
+                    "y": 1045,
+                    "w": 96,
+                    "h": 96,
+                    "offsetx": 16,
+                    "offsety": 16
+                },
+                "Attack": {
+                    "n": 16,
+                    "x": 0,
+                    "y": 7,
+                    "w": 128,
+                    "h": 128,
+                    "offsetx": 0,
+                    "offsety": -16
+                },
+                "GetHit": {
+                    "n": 6,
+                    "x": 4420,
+                    "y": 1045,
+                    "w": 96,
+                    "h": 96,
+                    "offsetx": 16,
+                    "offsety": 16
+                },
+                "Die": {
+                    "n": 21,
+                    "x": 2049,
+                    "y": 7,
+                    "w": 128,
+                    "h": 96,
+                    "offsetx": 0,
+                    "offsety": 16
+                },
+                "Fire": {
+                    "n": 20,
+                    "x": 0,
+                    "y": 1827,
+                    "w": 96,
+                    "h": 96,
+                    "offsetx": 16,
+                    "offsety": 16
+                },
+                "Lightning": {
+                    "n": 20,
+                    "x": 1921,
+                    "y": 1827,
+                    "w": 96,
+                    "h": 96,
+                    "offsetx": 16,
+                    "offsety": 16
+                },
+                "Smoke": {
+                    "n": 20,
+                    "x": 3842,
+                    "y": 1827,
+                    "w": 96,
+                    "h": 96,
+                    "offsetx": 16,
+                    "offsety": 16
+                }
+            },
+            "Stats": {
+                "Health": 500,
+                "Mana": 200,
+                "Damage": 40,
+                "Hit Rate": 200,
+                "Defense": 75,
+                "Block": 0,
+                "Level": 1
+            }
+        }
+    },
+    "Mob": {
+        "Felltwin": {
+            "Images": {
+                "BaseSurface": [128, 128],
+                "Idle": {
+                    "n": 13,
+                    "x": 1049,
+                    "y": 1045,
+                    "w": 128,
+                    "h": 128,
+                    "offsetx": 0,
+                    "offsety": -20
+                },
+                "Walk": {
+                    "n": 13,
+                    "x": 3074,
+                    "y": 1045,
+                    "w": 128,
+                    "h": 128,
+                    "offsetx": 0,
+                    "offsety": -20
+                },
+                "Attack": {
+                    "n": 15,
+                    "x": 0,
+                    "y": 7,
+                    "w": 128,
+                    "h": 128,
+                    "offsetx": 0,
+                    "offsety": -20
+                },
+                "GetHit": {
+                    "n": 11,
+                    "x": 0,
+                    "y": 1045,
+                    "w": 128,
+                    "h": 128,
+                    "offsetx": 0,
+                    "offsety": -20
+                },
+                "Die": {
+                    "n": 16,
+                    "x": 1921,
+                    "y": 7,
+                    "w": 128,
+                    "h": 128,
+                    "offsetx": 0,
+                    "offsety": -20
+                }
+            },
+            "Stats": {
+                "Health": 200,
+                "Damage": 40,
+                "Hit Rate": 100,
+                "Defense": 50,
+                "Block": 0,
+                "Level": 1
+            }
+        }
+    }
+}
